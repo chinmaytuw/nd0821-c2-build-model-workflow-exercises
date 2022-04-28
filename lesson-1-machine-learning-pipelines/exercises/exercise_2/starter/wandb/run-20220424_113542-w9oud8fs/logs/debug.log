@@ -1,0 +1,115 @@
+2022-04-24 11:35:42,467 INFO    MainThread:19572 [wandb_setup.py:_flush():75] Loading settings from C:\Users\chinm\.config\wandb\settings
+2022-04-24 11:35:42,467 INFO    MainThread:19572 [wandb_setup.py:_flush():75] Loading settings from C:\Users\chinm\Desktop\Personal\Courses\Udacity\ml_devops\nd0821-c2-build-model-workflow-exercises\lesson-1-machine-learning-pipelines\exercises\exercise_2\starter\wandb\settings
+2022-04-24 11:35:42,467 INFO    MainThread:19572 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-04-24 11:35:42,467 INFO    MainThread:19572 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'lesson-1-machine-learning-pipelines\\exercises\\exercise_2\\starter\\download_data.py', 'program': 'C:\\Users\\chinm\\Desktop\\Personal\\Courses\\Udacity\\ml_devops\\nd0821-c2-build-model-workflow-exercises\\lesson-1-machine-learning-pipelines\\exercises\\exercise_2\\starter\\download_data.py'}
+2022-04-24 11:35:42,467 INFO    MainThread:19572 [wandb_init.py:_log_setup():437] Logging user logs to C:\Users\chinm\Desktop\Personal\Courses\Udacity\ml_devops\nd0821-c2-build-model-workflow-exercises\lesson-1-machine-learning-pipelines\exercises\exercise_2\starter\wandb\run-20220424_113542-w9oud8fs\logs\debug.log
+2022-04-24 11:35:42,467 INFO    MainThread:19572 [wandb_init.py:_log_setup():438] Logging internal logs to C:\Users\chinm\Desktop\Personal\Courses\Udacity\ml_devops\nd0821-c2-build-model-workflow-exercises\lesson-1-machine-learning-pipelines\exercises\exercise_2\starter\wandb\run-20220424_113542-w9oud8fs\logs\debug-internal.log
+2022-04-24 11:35:42,467 INFO    MainThread:19572 [wandb_init.py:init():471] calling init triggers
+2022-04-24 11:35:42,467 INFO    MainThread:19572 [wandb_init.py:init():474] wandb.init called with sweep_config: {}
+config: {}
+2022-04-24 11:35:42,467 INFO    MainThread:19572 [wandb_init.py:init():524] starting backend
+2022-04-24 11:35:42,467 INFO    MainThread:19572 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2022-04-24 11:35:42,483 INFO    MainThread:19572 [backend.py:ensure_launched():217] starting backend process...
+2022-04-24 11:35:42,532 INFO    MainThread:19572 [backend.py:ensure_launched():222] started backend process with pid: 14448
+2022-04-24 11:35:42,532 INFO    MainThread:19572 [wandb_init.py:init():533] backend started and connected
+2022-04-24 11:35:42,532 INFO    MainThread:19572 [wandb_init.py:init():597] updated telemetry
+2022-04-24 11:35:42,557 INFO    MainThread:19572 [wandb_init.py:init():628] communicating run to backend with 30 second timeout
+2022-04-24 11:35:43,657 INFO    MainThread:19572 [wandb_run.py:_on_init():1923] communicating current version
+2022-04-24 11:35:43,797 INFO    MainThread:19572 [wandb_run.py:_on_init():1927] got version response 
+2022-04-24 11:35:43,797 INFO    MainThread:19572 [wandb_init.py:init():659] starting run threads in backend
+2022-04-24 11:35:43,917 INFO    MainThread:19572 [wandb_run.py:_console_start():1897] atexit reg
+2022-04-24 11:35:43,917 INFO    MainThread:19572 [wandb_run.py:_redirect():1770] redirect: SettingsConsole.WRAP
+2022-04-24 11:35:43,917 INFO    MainThread:19572 [wandb_run.py:_redirect():1807] Wrapping output streams.
+2022-04-24 11:35:43,917 INFO    MainThread:19572 [wandb_run.py:_redirect():1831] Redirects installed.
+2022-04-24 11:35:43,917 INFO    MainThread:19572 [wandb_init.py:init():684] run started, returning control to user process
+2022-04-24 11:35:44,167 INFO    MainThread:19572 [wandb_run.py:_finish():1685] finishing run chinmaytuw/exercise_2/w9oud8fs
+2022-04-24 11:35:44,167 INFO    MainThread:19572 [wandb_run.py:_atexit_cleanup():1866] got exitcode: 1
+2022-04-24 11:35:44,167 INFO    MainThread:19572 [wandb_run.py:_restore():1838] restore
+2022-04-24 11:35:44,427 INFO    MainThread:19572 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1445
+  total_bytes: 1445
+}
+
+2022-04-24 11:35:44,667 INFO    MainThread:19572 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1445
+  total_bytes: 1445
+}
+
+2022-04-24 11:35:44,767 INFO    MainThread:19572 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1445
+  total_bytes: 4353
+}
+
+2022-04-24 11:35:44,888 INFO    MainThread:19572 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 4353
+  total_bytes: 4353
+}
+
+2022-04-24 11:35:44,995 INFO    MainThread:19572 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 4353
+  total_bytes: 4353
+}
+
+2022-04-24 11:35:45,097 INFO    MainThread:19572 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 4353
+  total_bytes: 4353
+}
+
+2022-04-24 11:35:45,217 INFO    MainThread:19572 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 4353
+  total_bytes: 4353
+}
+
+2022-04-24 11:35:45,337 INFO    MainThread:19572 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 4353
+  total_bytes: 4353
+}
+
+2022-04-24 11:35:45,797 INFO    MainThread:19572 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 4353
+  total_bytes: 4353
+}
+
+2022-04-24 11:35:46,167 INFO    MainThread:19572 [wandb_run.py:_on_finish():1995] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 4353
+  total_bytes: 4353
+}
+local_info {
+}
+
+2022-04-24 11:35:47,287 INFO    MainThread:19572 [wandb_run.py:_footer_history_summary_info():3102] rendering history
+2022-04-24 11:35:47,288 INFO    MainThread:19572 [wandb_run.py:_footer_history_summary_info():3134] rendering summary
+2022-04-24 11:35:47,288 INFO    MainThread:19572 [wandb_run.py:_footer_sync_info():3057] logging synced files

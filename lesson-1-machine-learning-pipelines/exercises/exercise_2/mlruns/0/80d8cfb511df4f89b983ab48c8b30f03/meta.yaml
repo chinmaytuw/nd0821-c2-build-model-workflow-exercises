@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/chinm/Desktop/Personal/Courses/Udacity/ml_devops/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/mlruns/0/80d8cfb511df4f89b983ab48c8b30f03/artifacts
+end_time: 1650935460328
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 80d8cfb511df4f89b983ab48c8b30f03
+run_uuid: 80d8cfb511df4f89b983ab48c8b30f03
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1650935412763
+status: 4
+tags: []
+user_id: chinm

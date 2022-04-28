@@ -78,3 +78,5 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     go(args)
+
+# python download_data.py --file_url https://raw.githubusercontent.com/scikit-learn/scikit-learn/4dfdfb4e1bb3719628753a4ece995a1b2fa5312a/sklearn/datasets/data/iris.csv --artifact_name iris --artifact_type raw_data --artifact_description "The sklearn IRIS dataset"
